@@ -1,5 +1,7 @@
 class Penguins {
 
+	String enclosurename = "penguins";
+
 	static String animals = "";
 
 	static int animalsnum = 0;

@@ -45,6 +45,7 @@ class ChompBistro {
 	}
 
 	public static void main(String[] args) {
+
 		bistro a = new bistro("Abby","burger");
 		addBistro(a);
 
@@ -56,6 +57,16 @@ class ChompBistro {
 
 		bistro d = new bistro("Trinity","Chocolate Milk");
 		addBistro(d);
+
+		Scanner s = new Scanner(System.in);
+
+		String Choice = S.nextLine();
+
+		if(Choice == "menu") {
+
+			bistro.getMenu();
+
+		}
 		
 	}
 }
